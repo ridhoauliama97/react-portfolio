@@ -416,6 +416,9 @@ button:focus {
   .footer-body {
     text-align: center !important;
   }
+  .footer h3 {
+    font-size: 0.8em !important;
+  }
 }
 
 .footer h3 {

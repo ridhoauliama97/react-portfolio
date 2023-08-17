@@ -10,9 +10,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Ridho Aulia Mahqoma Angkat </span>
             from <span className="purple"> Medan, Indonesia.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc) in Maths and Computing at BIT Mesra.
+            <br /> I am a fresh graduate at STMIK Triguna Dharma Medan, graduated on time with a GPA of 3.69 out of
+            4.00.
             <br />
-            Additionally, I am currently employed as a software developer at Juspay.
+            Additionally, I'm currently working as a freelance software developer.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-// eslint-disable-next-line no-unused-vars
 import { SiVisualstudiocode, SiPostman, SiSlack, SiVercel, SiWindows } from "react-icons/si";
 
 function Toolstack() {

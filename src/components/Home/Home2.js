@@ -32,6 +32,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products with <b className="purple">
+                {" "}
                 Node.js
               </b>{" "}
               and
@@ -40,7 +41,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js</b>
               </i>
             </p>
           </Col>

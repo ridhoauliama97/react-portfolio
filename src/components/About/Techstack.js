@@ -1,30 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-// eslint-disable-next-line no-unused-vars
-import { CgCPlusPlus } from "react-icons/cg";
-import { DiJavascript1, DiReact, DiNodejs, DiMongodb, DiPython, DiGit, DiJava } from "react-icons/di";
-import {
-  SiTailwindcss,
-  SiJavascript,
-  SiHtml5,
-  SiCss3,
-  SiBootstrap,
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-// eslint-disable-next-line no-unused-vars
-import { TbBrandGolang } from "react-icons/tb";
+import { DiReact, DiNodejs, DiGit } from "react-icons/di";
+import { SiTailwindcss, SiJavascript, SiHtml5, SiCss3, SiBootstrap } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
       </Col>
@@ -49,30 +31,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col> */}
     </Row>
   );
 }
