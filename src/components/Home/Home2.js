@@ -19,25 +19,24 @@ function Home2() {
               <br />
               <br />I am fluent in classic like
               <i>
-                <b className="purple"> Javascript. </b>
+                <b className="purple"> Javascript</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building and developing&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b>
+                <b className="purple">Websites or Web Applications </b>
                 {/* and also in areas related to{""} */}
                 {/* <b className="purple">Blockchain.</b> */}
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products with <b className="purple">
-                {" "}
-                Node.js
-              </b>{" "}
-              and
+              Whenever possible, I also apply my passion for developing some small apps for daily life like{" "}
+              <b className="purple"> ToDo App, Clock App, etc. </b>For my portfolio{" "}
+              <b className="purple">Using HTML/CSS/Javascript </b>
               <i>
-                <b className="purple"> Modern Javascript Library and Frameworks</b>
+                or
+                <b className="purple"> Modern Javascript Library</b>
               </i>
               &nbsp; like
               <i>
