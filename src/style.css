@@ -398,6 +398,7 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
+  position: fixed;
 }
 .footer-copywright {
   text-align: center !important;
@@ -715,6 +716,14 @@ button:focus {
   }
 }
 
+/* Contact section */
+.contact-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
 .fork-btn {
   font-size: 1.1em !important;
   padding-top: 10px !important;
@@ -734,5 +743,27 @@ button:focus {
   border-color: #a24dd386 !important;
 }
 .fork-btn-inner::after {
+  display: none !important;
+}
+
+.resume-btn {
+  font-size: 1.1em !important;
+  padding-top: 10px !important;
+}
+
+.resume-btn-inner {
+  line-height: 1.4em !important;
+  background-color: #934cce5e !important;
+  padding: 0.25rem 1.1rem !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.resume-btn-inner:hover {
+  transform: translateY(-2px) !important;
+  background-color: #a24dd386 !important;
+  border-color: #a24dd386 !important;
+}
+.resume-btn-inner::after {
   display: none !important;
 }

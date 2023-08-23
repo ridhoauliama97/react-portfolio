@@ -7,7 +7,7 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer" fixed="bottom">
       <Row>
         <Col md="6" className="footer-copywright">
           <h3>Copyright © {year} | Ridho Aulia Mahqoma Angkat - Portfolio</h3>
