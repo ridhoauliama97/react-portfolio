@@ -9,6 +9,7 @@ import parallax from "../../assets/Projects/parallax.png";
 import tictactoe from "../../assets/Projects/TicTacToe.png";
 import todo from "../../assets/Projects/todo-app.png";
 import alarmClock from "../../assets/Projects/alarm-clock-app.png";
+import page404 from "../../assets/Projects/404.png";
 
 function Projects() {
   return (
@@ -27,6 +28,16 @@ function Projects() {
               title="Parallax"
               // description=""
               ghLink="https://github.com/ridhoauliama97/parallax-portfolio"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={page404}
+              isBlog={false}
+              title="404 Landing Page"
+              // description=""
+              ghLink="https://github.com/ridhoauliama97/404-landing-page"
             />
           </Col>
 
