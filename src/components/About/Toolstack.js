@@ -4,7 +4,7 @@ import { SiVisualstudiocode, SiPostman, SiSlack, SiVercel, SiWindows } from "rea
 
 function Toolstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: 50 }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiWindows />
       </Col>

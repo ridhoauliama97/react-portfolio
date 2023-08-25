@@ -6,7 +6,7 @@ import { SiTailwindcss, SiJavascript, SiHtml5, SiCss3, SiBootstrap } from "react
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: 20 }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
       </Col>

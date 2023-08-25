@@ -12,30 +12,33 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              A Little <span className="purple"> About </span> Me
             </h1>
-            <p className="home-about-body">
+            <p className="home-about-body" style={{ textAlign: "justify" }}>
               I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classic like
+              <br /> I am fluent in basic
               <i>
-                <b className="purple"> Javascript</b>
+                <b className="purple">
+                  {" "}
+                  HTML, CSS <span style={{ color: "#fff", fontWeight: "normal" }}>and</span> Javascript
+                </b>
               </i>
               <br />
               <br />
               My field of Interest's are building and developing&nbsp;
               <i>
-                <b className="purple">Websites or Web Applications </b>
+                <b className="purple">
+                  Websites <span style={{ color: "#fff", fontStyle: "normal", fontWeight: "normal" }}>or</span> Web
+                  Applications{" "}
+                </b>
                 {/* and also in areas related to{""} */}
                 {/* <b className="purple">Blockchain.</b> */}
               </i>
               <br />
+              <br />I like new things and share positive things, be it technology or something else
               <br />
-              Whenever possible, I also apply my passion for developing some small apps for daily life like{" "}
-              <b className="purple"> ToDo App, Clock App, etc. </b>For my portfolio{" "}
-              <b className="purple">Using HTML/CSS/Javascript </b>
+              Whenever possible, I also apply my passion in Javascript to learn{" "}
               <i>
-                or
                 <b className="purple"> Modern Javascript Library</b>
               </i>
               &nbsp; like
@@ -51,18 +54,18 @@ function Home2() {
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
+          <Col sm={12} className="home-about-social">
+            {/* <h1>FIND ME ON</h1> */}
+            <h5>
               Feel free to <span className="purple">connect </span>with me
-            </p>
+            </h5>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/ridhoauliama97"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -72,7 +75,7 @@ function Home2() {
                   href="https://wa.me/62895327143852"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiOutlineWhatsApp />
                 </a>
@@ -82,7 +85,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/ridhoauliama97/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
