@@ -10,6 +10,7 @@ import tictactoe from "../../assets/Projects/TicTacToe.png";
 import todo from "../../assets/Projects/todo-app.png";
 import alarmClock from "../../assets/Projects/alarm-clock-app.png";
 import page404 from "../../assets/Projects/404.png";
+import movieLand from "../../assets/Projects/movie-land.png";
 
 function Projects() {
   return (
@@ -19,7 +20,9 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>Here are a few small projects I've worked on recently.</p>
+        <p style={{ color: "white" }}>
+          Here are a few small projects I've worked on recently.
+        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -48,6 +51,16 @@ function Projects() {
               title="Website Portfolio"
               ghLink="https://github.com/ridhoauliama97/react-portfolio"
               demoLink="https://ridhoauliama97-portfolio.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movieLand}
+              isBlog={false}
+              title="MovieLand with OMDb API"
+              ghLink="https://github.com/ridhoauliama97/movieland-app"
+              demoLink="https://portfolio-ridho-reactjs-movieland-app.vercel.app/"
             />
           </Col>
 
