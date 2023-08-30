@@ -20,7 +20,8 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  HTML, CSS <span style={{ color: "#fff", fontWeight: "normal" }}>and</span> Javascript
+                  HTML, CSS <span style={{ color: "#fff", fontWeight: "normal" }}>and</span>{" "}
+                  Javascript
                 </b>
               </i>
               <br />
@@ -28,8 +29,11 @@ function Home2() {
               My field of Interest's are building and developing&nbsp;
               <i>
                 <b className="purple">
-                  Websites <span style={{ color: "#fff", fontStyle: "normal", fontWeight: "normal" }}>or</span> Web
-                  Applications{" "}
+                  Websites{" "}
+                  <span style={{ color: "#fff", fontStyle: "normal", fontWeight: "normal" }}>
+                    or
+                  </span>{" "}
+                  Web Applications{" "}
                 </b>
                 {/* and also in areas related to{""} */}
                 {/* <b className="purple">Blockchain.</b> */}

@@ -64,7 +64,12 @@ function Contact() {
                 <InputGroup.Text id="email">
                   <AiOutlineMail />
                 </InputGroup.Text>
-                <Form.Control placeholder="Your Email" aria-label="Email" aria-describedby="email" required />
+                <Form.Control
+                  placeholder="Your Email"
+                  aria-label="Email"
+                  aria-describedby="email"
+                  required
+                />
               </InputGroup>
             </Form.Group>
 
@@ -84,7 +89,12 @@ function Contact() {
           </Row>
 
           <FloatingLabel controlId="messages" label="Your Messages" className="mb-3">
-            <Form.Control as="textarea" placeholder="Your Messages" style={{ height: "100px" }} required />
+            <Form.Control
+              as="textarea"
+              placeholder="Your Messages"
+              style={{ height: "100px" }}
+              required
+            />
           </FloatingLabel>
 
           <Button variant="primary" type="submit" style={{ marginTop: "1em" }}>

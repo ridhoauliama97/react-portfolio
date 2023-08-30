@@ -42,19 +42,46 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <p style={{ marginBottom: "2px", marginTop: "2px", fontSize: "18px" }}> Home</p>
+                <p
+                  style={{
+                    marginBottom: "2px",
+                    marginTop: "2px",
+                    fontSize: "18px",
+                  }}
+                >
+                  {" "}
+                  Home
+                </p>
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
-                <p style={{ marginBottom: "2px", marginTop: "2px", fontSize: "18px" }}> About</p>
+                <p
+                  style={{
+                    marginBottom: "2px",
+                    marginTop: "2px",
+                    fontSize: "18px",
+                  }}
+                >
+                  {" "}
+                  About
+                </p>
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to="/project" onClick={() => updateExpanded(false)}>
-                <p style={{ marginBottom: "2px", marginTop: "2px", fontSize: "18px" }}> Projects</p>
+                <p
+                  style={{
+                    marginBottom: "2px",
+                    marginTop: "2px",
+                    fontSize: "18px",
+                  }}
+                >
+                  {" "}
+                  Projects
+                </p>
               </Nav.Link>
             </Nav.Item>
 
@@ -88,7 +115,8 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} /> <AiFillStar style={{ fontSize: "1.1em" }} />
+                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+                <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
           </Nav>
